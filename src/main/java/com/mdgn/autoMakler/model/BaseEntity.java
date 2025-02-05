@@ -10,7 +10,10 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
-
+import lombok.Getter;
+import lombok.Setter;
+@Getter
+@Setter
 @MappedSuperclass //Bu anotasyon ile burası base class oldu. Buradan tablo oluşmayacak ancak burayı extend eden tüm tablolara bu datalar kolon olarak yansıyacak.
 public class BaseEntity {
 	
