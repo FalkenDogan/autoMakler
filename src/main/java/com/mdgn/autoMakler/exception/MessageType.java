@@ -11,6 +11,9 @@ public enum MessageType {
 	USERNAME_OR_PASSWORD_INVALID("1007", "Username oder Passwort falsch!"),
 	REFRESH_TOKEN_NOT_FOUND("1008", "Refreshtoken is nict gefunden"),
 	REFRESSH_TOKEN_IS_EXPIRED("1009", "Refreshtoken is expired"),
+	CURRENCY_RATES_IS_OCCURED("1010", "Currency ist nicht bekommen"),
+	CUSTOMER_AMOUNT_IS_NOT_ENOUGH("1011", "Kunde hat nicht genug Geld"),
+	CAR_STATUS_IS_SOLD("1012", "Das Auto ist bereits verkauft!"),
 	GENERAL_EXCEPTION("9999", "Ein allgemeiner Fehler ist aufgetreten!");
 	
 	private String code;
